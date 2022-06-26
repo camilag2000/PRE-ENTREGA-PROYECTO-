@@ -28,12 +28,12 @@ body{
 }
 
 .info img {
-    width: 30cm;
-    border-radius: 2cm;
+    width: 40cm;
+  
     margin-top: 1cm;
+    margin-bottom: 3cm;
     margin-left: 3cm;
-    margin-right: 0cm;
-    padding: 1cm;
+   
 }
 div h3{
     width: 100%;
@@ -86,4 +86,9 @@ footer{
     font-family: 'Courier New', Courier, monospace;
     margin-top: 2cm;
     margin-right: 3cm;
+}
+@media screen and (60%)  {
+    div p {
+        display: none;
+    }
 }
