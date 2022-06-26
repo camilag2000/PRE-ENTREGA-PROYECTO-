@@ -2,7 +2,7 @@
     padding: 0%;
     margin: 0%;
 }
-main {
+body{
     animation-name: animacion;
     animation-iteration-count: infinite;
     animation-duration: 10s;
@@ -21,14 +21,17 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 1cm;
-    width: 90%;
+    margin-top: 3cm;
+    width: 80%;
+    text-align: center;
+    
 }
+
 .info img {
     width: 30cm;
     border-radius: 2cm;
     margin-top: 1cm;
-    margin-left: 2cm;
+    margin-left: 3cm;
     margin-right: 0cm;
     padding: 1cm;
 }
@@ -39,7 +42,8 @@ div h3{
     text-align: center;
     flex: 1;
     border: 0.2cm #fff solid;
-    margin-left: 1cm;
+    margin-left: 3cm;
+    margin-top: 3cm;
 }
 div p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -47,6 +51,39 @@ div p {
     flex: 1;
     text-align: center;
     margin-top: 0.6cm;
-    margin-left: 1cm;
+    margin-left: 5cm;
+}
 
+footer{
+    height: 500px;
+}
+
+.pie button {
+    height: 1cm;
+    width: 5cm;
+    font-size: 1cm;
+    height: 2rem;
+    background-color: #0c1b54;
+    border-radius: 1rem;
+    border: 2cm gray;
+    font-size: 0.5rem;
+    text-align: center;
+    transform: scale(1.2);
+    margin-left: 2cm;
+    
+}
+.piePagina {
+    display: flex;
+    justify-content: center;
+}
+.encontranos p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.5cm;
+    background-color: #0c1b54;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2cm;
+    margin-right: 3cm;
 }
