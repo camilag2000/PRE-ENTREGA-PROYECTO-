@@ -2,11 +2,21 @@
     padding: 0%;
     margin: 0%;
 }
+main {
+    animation-name: animacion;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    margin-top: 0%;
+}
+@keyframes animacion {
+    60% {background-color: #5885c4;}
+    20% {background-color:#1074b3 ;}
+    20%{background-color: #5b6266;}
+}
 
 .imagen-logo {
     width: 4cm;
-    border-radius: 4rem;
-}
+    border-radius: 4rem; }
 .info {
     display: flex;
     flex-direction: column;
