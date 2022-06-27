@@ -53,53 +53,7 @@ div p {
     margin-top: 0.6cm;
     margin-left: 5cm;
 }
-/*
-footer{
-    height: 500px;
-    margin-top: 5cm;
-}
 
-.pie button {
-    height: 1cm;
-    width: 5cm;
-    font-size: 1cm;
-    height: 2rem;
-    background-color: #0c1b54;
-    border-radius: 1rem;
-    border: 2cm gray;
-    font-size: 0.5rem;
-    text-align: center;
-    transform: scale(1.2);
-    margin-left: 2cm;
-    
-}
-.piePagina {
-    display: flex;
-    justify-content: center;
-}
-.encontranos p {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 0.5cm;
-    background-color: #0c1b54;
-    color: #fff;
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 2cm;
-    margin-right: 3cm;
-}
-*/
-/*
- .info-titulo h3 {
-    
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 0.9cm;
-    text-align: center;
-    flex: 1;
-    border: 0.2cm #fff solid;
-    margin-left: 3cm;
-    margin-top: 3cm;
-*/
 .info-titulo {
     display: flex;
     flex-direction: row;
@@ -170,6 +124,11 @@ footer {
     font-size: 40px;
 
 }
-
+@media (min-width: 768px) { 
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+ }
 
 
