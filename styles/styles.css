@@ -53,7 +53,7 @@ div p {
     margin-top: 0.6cm;
     margin-left: 5cm;
 }
-
+/*
 footer{
     height: 500px;
     margin-top: 5cm;
@@ -88,6 +88,7 @@ footer{
     margin-top: 2cm;
     margin-right: 3cm;
 }
+*/
 /*
  .info-titulo h3 {
     
@@ -164,11 +165,11 @@ main h3 {
     margin-right: 2cm;
 }
 
-@media screen and (min-width: 864px) {
-    .card {
-        flex-direction: column;
-    }
-    
+footer {
+    text-align: center;
+    font-size: 40px;
+
 }
+
 
 
