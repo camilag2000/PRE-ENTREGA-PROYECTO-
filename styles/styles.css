@@ -2,7 +2,26 @@
     padding: 0%;
     margin: 0%;
 }
-body{
+body {
+    background-image: url(./../imagenes/fuente\ 2.jpg) ;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+body:before {
+    content: "";
+    width: 100%;
+    min-height: 200vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(#fff, #dce6df);
+    opacity: 0.5;
+    z-index:-1 ;
+}
+/* body{
     animation-name: animacion;
     animation-iteration-count: infinite;
     animation-duration: 10s;
@@ -12,7 +31,7 @@ body{
     60% {background-color: #5885c4;}
     20% {background-color:#1074b3 ;}
     20%{background-color: #5b6266;}
-}
+} */
 
 .imagen-logo {
     width: 2cm;
