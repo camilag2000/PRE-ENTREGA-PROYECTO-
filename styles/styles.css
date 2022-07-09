@@ -2,14 +2,14 @@
     padding: 0%;
     margin: 0%;
 }
-body {
+ .inicio {
     background-image: url(./../imagenes/fuente\ 2.jpg) ;
     background-size: 100%, 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
 }
-body:before {
+.inicio:before {
     content: "";
     width: 100%;
     min-height: 200vh;
@@ -20,7 +20,7 @@ body:before {
     background: linear-gradient(#fff, #dce6df);
     opacity: 0.5;
     z-index:-1 ;
-}
+} 
 /* body{
     animation-name: animacion;
     animation-iteration-count: infinite;
@@ -32,7 +32,11 @@ body:before {
     20% {background-color:#1074b3 ;}
     20%{background-color: #5b6266;}
 } */
-
+.boton {
+    margin-top: 1cm;
+    display: flex;
+    justify-content: center;
+}
 .imagen-logo {
     width: 2cm;
     border-radius: 4rem; }
@@ -65,7 +69,7 @@ div h3{
     margin-top: 3cm;
 }
 div p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Barlow Condensed', sans-serif;
     font-size: 0.7cm;
     flex: 1;
     text-align: center;
@@ -79,11 +83,11 @@ div p {
     justify-content: space-between;
     margin-top: 0cm;
     text-align: center;
-    margin-bottom: 3cm;
+    margin-bottom: 1cm;
 }
 
 .info-titulo p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Barlow Condensed', sans-serif;
     font-size: 0.5cm;
     flex: 1;
     text-align: center;
@@ -93,14 +97,14 @@ div p {
 }
 .info-titulo img {
     margin-right: 2cm;
-}
+} 
 main h3 {
   
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Barlow Condensed', sans-serif;
     font-size: 0.9cm;
     text-align: center;
     flex: 1;
-    border: 0.2cm #fff solid;
+    border: 0.2cm blue solid;
     margin-left: 3cm;
     margin-top: 3cm;
     margin-right: 2cm;
@@ -137,10 +141,20 @@ main h3 {
     margin-left: 2cm;
     margin-right: 2cm;
 }
+.slide{
+    margin-top: 1cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    background-color: #fff;
+}
+.slide img {
+    height: 15cm;
+}
 
 footer {
     text-align: center;
     font-size: 40px;
+    margin-top: 5cm;
 
 }
 @media (min-width: 768px) { 
