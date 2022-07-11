@@ -1,4 +1,4 @@
-*{ 
+/* *{ 
     padding: 0%;
     margin: 0%;
 }
@@ -32,7 +32,7 @@
     20% {background-color:#1074b3 ;}
     20%{background-color: #5b6266;}
 } */
-.boton {
+/* .boton {
     margin-top: 1cm;
     display: flex;
     justify-content: center;
@@ -151,11 +151,20 @@ main h3 {
     height: 15cm;
 }
 
-footer {
+.footer {
+    background-color: blue;
     text-align: center;
     font-size: 40px;
-    margin-top: 5cm;
+    padding-block: 15px;
+    margin-bottom: 0%;
+    bottom: 3cm;
 
+}
+.navbar {
+    background-color: blue;
+}
+.footer p {
+    margin-bottom: 0cm;
 }
 @media (min-width: 768px) { 
     .card {
@@ -163,5 +172,8 @@ footer {
         flex-direction: column;
     }
  }
+ .formulario {
+    margin-top: 3cm;
+ } */
 
 

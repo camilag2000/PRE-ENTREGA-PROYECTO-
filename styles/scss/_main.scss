@@ -1,0 +1,170 @@
+.inicio {
+    background-image: url(./../../imagenes/fuente\ 2.jpg) ;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+        .inicio:before {
+    content: "";
+    width: 100%;
+    min-height: 200vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(#fff, #dce6df);
+    opacity: 0.5;
+    z-index:-1 ;
+} 
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3cm;
+    width: 80%;
+    text-align: center;
+    
+
+
+ img {
+    width: 40cm;
+    margin-top: 1cm;
+    margin-bottom: 3cm;
+    margin-left: 3cm;
+   
+}
+  .titulo{
+    width: 100%;
+    font-family: $letra1;
+    font-size: 0.9cm;
+    text-align: left;
+    flex: 1;
+    color: $azulocuro;
+    border: 0.1cm $blanco solid;
+    margin-left: 3cm;
+    margin-top: 3cm;
+}
+  .parrafo {
+    font-family: $letra1;
+    font-size: 0.7cm;
+    flex: 1;
+    text-align: center;
+    margin-top: 0.9cm;
+    margin-left: 5cm;
+    
+}
+}
+
+.servicio {
+    @extend .info;
+    border: black;
+   
+
+
+    .titulo-nosotros {
+        @extend .titulo;
+        text-align: left;
+        color: $azulocuro;
+        border: none
+    }
+    .parrafo-nosotros {
+        @extend .parrafo;
+        font-size: 0.5cm ;
+        margin-top: 0.9cm;
+        text-align: left;
+        margin-left: 3cm;
+     
+    }
+}
+    .slide{
+        margin-top: 1cm;
+        margin-left: 1cm;
+        margin-right: 1cm;
+        background-color: #fff;
+    
+    .slide img {
+        @include ancho (0, 200px)
+    }
+}
+
+.servicio-oficial {
+    @extend .info;
+   
+    
+    h1{
+        @extend .titulo; 
+        }
+    p {
+         @extend .parrafo;
+         margin-left:3cm ;
+         text-align: left;
+       
+        font-size: 00.5cm;
+        ;
+    }
+}
+.texto {
+    background-color: $azulclaro;
+    margin-left: 3cm;
+}
+.card {
+    margin-bottom: 5cm;
+    border: 0cm;
+    animation-name: animacion;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    margin-top: 0%;
+    color: $azulocuro;
+
+    .btn {
+        margin-bottom: 0.5cm;
+    }
+    .body {
+        margin-bottom: 0.5cm;
+    }
+}
+.mb-3 {
+    margin-top: 1cm;}
+  
+   .container {
+    margin-top: 3cm;
+
+
+ .text-center {
+    background-color: $blanco;
+    color: $azulocuro;
+    font-size: 1cm;
+
+}
+   }
+   .encontranos {
+    @extend .info;
+    
+
+    h1 {
+        @extend .titulo;
+        margin-top: 3cm;
+        text-align: center;
+        
+    }
+    .presupuesto {
+        color: $azulocuro;
+        @extend .parrafo
+        
+        
+    }
+   }
+   .mapa {
+    margin-left: 3cm;
+   }
+
+
+
+
+
+
+
+

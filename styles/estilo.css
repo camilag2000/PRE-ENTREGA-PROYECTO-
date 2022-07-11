@@ -1,0 +1,154 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.navbar .imagen-logo {
+  width: 2cm;
+  border-radius: 4rem;
+}
+
+.inicio {
+  background-image: url(./../../imagenes/fuente\ 2.jpg);
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.inicio:before {
+  content: "";
+  width: 100%;
+  min-height: 200vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(#fff, #dce6df);
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.info, .encontranos, .servicio-oficial, .servicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 3cm;
+  width: 80%;
+  text-align: center;
+}
+.info img, .encontranos img, .servicio-oficial img, .servicio img {
+  width: 40cm;
+  margin-top: 1cm;
+  margin-bottom: 3cm;
+  margin-left: 3cm;
+}
+.info .titulo, .encontranos .titulo, .encontranos h1, .servicio-oficial .titulo, .servicio-oficial h1, .servicio .titulo, .servicio .titulo-nosotros {
+  width: 100%;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 0.9cm;
+  text-align: left;
+  flex: 1;
+  color: rgba(9, 9, 87, 0.786);
+  border: 0.1cm #fff solid;
+  margin-left: 3cm;
+  margin-top: 3cm;
+}
+.info .parrafo, .encontranos .parrafo, .encontranos .presupuesto, .servicio-oficial .parrafo, .servicio-oficial p, .servicio .parrafo, .servicio .parrafo-nosotros {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 0.7cm;
+  flex: 1;
+  text-align: center;
+  margin-top: 0.9cm;
+  margin-left: 5cm;
+}
+
+.servicio {
+  border: black;
+}
+.servicio .titulo-nosotros {
+  text-align: left;
+  color: rgba(9, 9, 87, 0.786);
+  border: none;
+}
+.servicio .parrafo-nosotros {
+  font-size: 0.5cm;
+  margin-top: 0.9cm;
+  text-align: left;
+  margin-left: 3cm;
+}
+
+.slide {
+  margin-top: 1cm;
+  margin-left: 1cm;
+  margin-right: 1cm;
+  background-color: #fff;
+}
+.slide .slide img {
+  width: 0;
+  height: 200px;
+}
+
+.servicio-oficial p {
+  margin-left: 3cm;
+  text-align: left;
+  font-size: 0.5cm;
+}
+
+.texto {
+  background-color: #1c23e8;
+  margin-left: 3cm;
+}
+
+.card {
+  margin-bottom: 5cm;
+  border: 0cm;
+  -webkit-animation-name: animacion;
+          animation-name: animacion;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  margin-top: 0%;
+  color: rgba(9, 9, 87, 0.786);
+}
+.card .btn {
+  margin-bottom: 0.5cm;
+}
+.card .body {
+  margin-bottom: 0.5cm;
+}
+
+.mb-3 {
+  margin-top: 1cm;
+}
+
+.container {
+  margin-top: 3cm;
+}
+.container .text-center {
+  background-color: #fff;
+  color: rgba(9, 9, 87, 0.786);
+  font-size: 1cm;
+}
+
+.encontranos h1 {
+  margin-top: 3cm;
+  text-align: center;
+}
+.encontranos .presupuesto {
+  color: rgba(9, 9, 87, 0.786);
+}
+
+.mapa {
+  margin-left: 3cm;
+}
+
+footer {
+  text-align: center;
+  font-size: 40px;
+  padding-block: 15px;
+  margin-bottom: 0%;
+  bottom: 3cm;
+}
+footer p {
+  margin-bottom: 0cm;
+}/*# sourceMappingURL=estilo.css.map */
