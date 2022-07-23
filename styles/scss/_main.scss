@@ -13,10 +13,11 @@
     top: 0;
     left: 0;
 
-    background: linear-gradient(#fff, #dce6df);
+   background-color: $blanco;
     opacity: 0.5;
     z-index:-1 ;
 } 
+
 
 
 .info {
@@ -26,15 +27,17 @@
     margin-top: 3cm;
     width: 80%;
     text-align: center;
+
+    img {
+        width: 20cm;
+        margin-top: 1cm;
+        margin-left: 3cm;
+}
+    
     
 
 
- img {
-    width: 40cm;
-    margin-top: 1cm;
-    margin-bottom: 3cm;
-    margin-left: 3cm;
-   
+
 }
   .titulo{
     width: 100%;
@@ -43,7 +46,7 @@
     text-align: left;
     flex: 1;
     color: $azulocuro;
-    border: 0.1cm $blanco solid;
+    border: 0.1cm $azulocuro solid;
     margin-left: 3cm;
     margin-top: 3cm;
 }
@@ -56,7 +59,7 @@
     margin-left: 5cm;
     
 }
-}
+
 
 .servicio {
     @extend .info;
@@ -68,8 +71,12 @@
         @extend .titulo;
         text-align: left;
         color: $azulocuro;
-        border: none
-    }
+        border: none;
+     
+ }
+
+
+    
     .parrafo-nosotros {
         @extend .parrafo;
         font-size: 0.5cm ;
@@ -118,6 +125,8 @@
     animation-duration: 10s;
     margin-top: 0%;
     color: $azulocuro;
+}
+   
 
     .btn {
         margin-bottom: 0.5cm;
@@ -125,7 +134,7 @@
     .body {
         margin-bottom: 0.5cm;
     }
-}
+
 .mb-3 {
     margin-top: 1cm;}
   
@@ -160,6 +169,15 @@
    .mapa {
     margin-left: 3cm;
    }
+
+   
+// @media screen and (max-width: 768px) {
+//     .mapa .donde {
+//         margin-left: 1cm;
+//         margin-right: 3cm;
+//     }
+    
+// }
 
  
 
