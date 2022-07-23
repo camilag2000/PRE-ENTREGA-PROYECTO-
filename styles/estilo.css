@@ -9,7 +9,7 @@
 }
 
 .inicio {
-  background-image: url(./../../imagenes/fuente\ 2.jpg);
+  background-image: url(imagenes/fuente2.jpg);
   background-size: 100%, 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -22,7 +22,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(#fff, #dce6df);
+  background-color: #fff;
   opacity: 0.5;
   z-index: -1;
 }
@@ -36,23 +36,24 @@
   text-align: center;
 }
 .info img, .encontranos img, .servicio-oficial img, .servicio img {
-  width: 40cm;
+  width: 20cm;
   margin-top: 1cm;
-  margin-bottom: 3cm;
   margin-left: 3cm;
 }
-.info .titulo, .encontranos .titulo, .encontranos h1, .servicio-oficial .titulo, .servicio-oficial h1, .servicio .titulo, .servicio .titulo-nosotros {
+
+.titulo, .encontranos h1, .servicio-oficial h1, .servicio .titulo-nosotros {
   width: 100%;
   font-family: "Barlow Condensed", sans-serif;
   font-size: 0.9cm;
   text-align: left;
   flex: 1;
   color: rgba(9, 9, 87, 0.786);
-  border: 0.1cm #fff solid;
+  border: 0.1cm rgba(9, 9, 87, 0.786) solid;
   margin-left: 3cm;
   margin-top: 3cm;
 }
-.info .parrafo, .encontranos .parrafo, .encontranos .presupuesto, .servicio-oficial .parrafo, .servicio-oficial p, .servicio .parrafo, .servicio .parrafo-nosotros {
+
+.parrafo, .encontranos .presupuesto, .servicio-oficial p, .servicio .parrafo-nosotros {
   font-family: "Barlow Condensed", sans-serif;
   font-size: 0.7cm;
   flex: 1;
@@ -110,10 +111,12 @@
   margin-top: 0%;
   color: rgba(9, 9, 87, 0.786);
 }
-.card .btn {
+
+.btn {
   margin-bottom: 0.5cm;
 }
-.card .body {
+
+.body {
   margin-bottom: 0.5cm;
 }
 
